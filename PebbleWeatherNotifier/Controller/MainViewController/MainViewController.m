@@ -18,13 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    [self customizeNavigationBar];
-}
-
--(void)customizeNavigationBar {
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addNewCondition)];
-    self.navigationItem.title = NSLocalizedString(@"Weather Conditions", nil);
 }
 
 #pragma mark - 
