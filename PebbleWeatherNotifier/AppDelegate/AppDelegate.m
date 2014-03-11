@@ -15,6 +15,16 @@
     // Override point for customization after application launch.
     return YES;
 }
+
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
+    return YES;
+}
+
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    // TODO
+    completionHandler(UIBackgroundFetchResultNewData);
+}
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

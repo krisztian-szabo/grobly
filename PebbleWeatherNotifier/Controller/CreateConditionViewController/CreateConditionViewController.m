@@ -21,15 +21,19 @@ enum UnitType {
 }
 
 @property (weak, nonatomic) IBOutlet UIButton *useLocationButton;
-@property (weak, nonatomic) IBOutlet UITextField *locationValue;
 @property (weak, nonatomic) IBOutlet UILabel *tempAboveMetricLabel;
 @property (weak, nonatomic) IBOutlet UILabel *tempBelowMetricLabel;
 @property (weak, nonatomic) IBOutlet UILabel *speedBelowMetricLabel;
 @property (weak, nonatomic) IBOutlet UILabel *speedAboveMetricLabel;
+@property (weak, nonatomic) IBOutlet UITextField *conditionNameValue;
+@property (weak, nonatomic) IBOutlet UITextField *locationValue;
 @property (weak, nonatomic) IBOutlet UITextField *tempBelowValue;
 @property (weak, nonatomic) IBOutlet UITextField *tempAboveValue;
 @property (weak, nonatomic) IBOutlet UITextField *speedBelowValue;
 @property (weak, nonatomic) IBOutlet UITextField *speedAboveValue;
+@property (weak, nonatomic) IBOutlet UITextField *humidityBelowValue;
+@property (weak, nonatomic) IBOutlet UITextField *humidityAboveValue;
+@property (weak, nonatomic) IBOutlet UISwitch *unitTypeSwitch;
 
 @property (strong,nonatomic) CLLocationManager *locationManager;
 @property (strong,nonatomic) CLLocation *currentLocation;
@@ -54,8 +58,6 @@ enum UnitType {
 #pragma mark - Screen Update Methods
 
 -(void)setupViews {
-    [self.navigationController setNavigationBarHidden:NO];
-    [self.navigationController setNavigationBarHidden:YES];
     UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget: self action:@selector(doSingleTap)];
     singleTap.numberOfTapsRequired = 1;
     [self.view addGestureRecognizer:singleTap];
@@ -84,6 +86,8 @@ enum UnitType {
     [self.tempBelowValue resignFirstResponder];
     [self.speedAboveValue resignFirstResponder];
     [self.speedBelowValue resignFirstResponder];
+    [self.humidityBelowValue resignFirstResponder];
+    [self.humidityAboveValue resignFirstResponder];
 }
 
 - (IBAction)userCurrentLocation:(id)sender {
@@ -96,7 +100,9 @@ enum UnitType {
     if ([self.tempBelowValue.text isEqualToString:@""] &&
         [self.tempAboveValue.text isEqualToString:@""] &&
         [self.speedBelowValue.text isEqualToString:@""] &&
-        [self.speedAboveValue.text isEqualToString:@""]) {
+        [self.speedAboveValue.text isEqualToString:@""] &&
+        [self.humidityBelowValue.text isEqualToString:@""] &&
+        [self.humidityAboveValue.text isEqualToString:@""]) {
         [[[UIAlertView alloc] initWithTitle:@"Empty Fields"
                                     message:@"You must complete at least one condition."
                                    delegate:nil

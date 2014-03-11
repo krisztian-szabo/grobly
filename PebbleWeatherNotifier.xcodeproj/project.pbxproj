@@ -1,1454 +1,676 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>4BACA2E4DC704563B580433D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF0818CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF1A18CDC95400E26D38</string>
-				<string>52C6CF3918CDC95400E26D38</string>
-				<string>52C6CF1318CDC95400E26D38</string>
-				<string>52C6CF1218CDC95400E26D38</string>
-				<string>4BACA2E4DC704563B580433D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF0918CDC95400E26D38</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Krisztian Szabo</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>52C6CF1018CDC95400E26D38</key>
-					<dict>
-						<key>DevelopmentTeam</key>
-						<string>64JQC44DL3</string>
-						<key>SystemCapabilities</key>
-						<dict>
-							<key>com.apple.BackgroundModes</key>
-							<dict>
-								<key>enabled</key>
-								<string>1</string>
-							</dict>
-						</dict>
-					</dict>
-					<key>52C6CF3118CDC95400E26D38</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>52C6CF1018CDC95400E26D38</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>52C6CF0C18CDC95400E26D38</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>52C6CF0818CDC95400E26D38</string>
-			<key>productRefGroup</key>
-			<string>52C6CF1218CDC95400E26D38</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>52C6CF1018CDC95400E26D38</string>
-				<string>52C6CF3118CDC95400E26D38</string>
-			</array>
-		</dict>
-		<key>52C6CF0C18CDC95400E26D38</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>52C6CF4118CDC95400E26D38</string>
-				<string>52C6CF4218CDC95400E26D38</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>52C6CF0D18CDC95400E26D38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52C6CF5218CDCAD100E26D38</string>
-				<string>52C6CF2118CDC95400E26D38</string>
-				<string>52C6CF5518CDCADA00E26D38</string>
-				<string>52C6CF6718CDE3CD00E26D38</string>
-				<string>52C6CF5F18CDE11A00E26D38</string>
-				<string>52C6CF6318CDE3AD00E26D38</string>
-				<string>52C6CF5918CDCF1500E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52C6CF0E18CDC95400E26D38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52C6CF5B18CDCF4C00E26D38</string>
-				<string>52C6CF1718CDC95400E26D38</string>
-				<string>52C6CF1918CDC95400E26D38</string>
-				<string>52C6CF1518CDC95400E26D38</string>
-				<string>B3EA0A8E60724825A28D184C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52C6CF0F18CDC95400E26D38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52C6CF2D18CDC95400E26D38</string>
-				<string>52C6CF1F18CDC95400E26D38</string>
-				<string>52C6CF2818CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52C6CF1018CDC95400E26D38</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>52C6CF4318CDC95400E26D38</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CB53C16AACD6431CBB1236BA</string>
-				<string>52C6CF0D18CDC95400E26D38</string>
-				<string>52C6CF0E18CDC95400E26D38</string>
-				<string>52C6CF0F18CDC95400E26D38</string>
-				<string>A5441D67B3F044B5AAAEFCCB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>PebbleWeatherNotifier</string>
-			<key>productName</key>
-			<string>PebbleWeatherNotifier</string>
-			<key>productReference</key>
-			<string>52C6CF1118CDC95400E26D38</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>52C6CF1118CDC95400E26D38</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Grobly.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>52C6CF1218CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF1118CDC95400E26D38</string>
-				<string>52C6CF3218CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF1318CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF5A18CDCF4C00E26D38</string>
-				<string>52C6CF1418CDC95400E26D38</string>
-				<string>52C6CF1618CDC95400E26D38</string>
-				<string>52C6CF1818CDC95400E26D38</string>
-				<string>52C6CF3318CDC95400E26D38</string>
-				<string>AAC8BBC665454306B5E90F65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF1418CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>52C6CF1518CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF1418CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF1618CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>52C6CF1718CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF1618CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF1818CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>52C6CF1918CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF1818CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF1A18CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF4E18CDCAB400E26D38</string>
-				<string>52C6CF4D18CDCAAE00E26D38</string>
-				<string>52C6CF4C18CDCAA900E26D38</string>
-				<string>52C6CF4B18CDCA8800E26D38</string>
-				<string>52C6CF4A18CDCA8300E26D38</string>
-				<string>52C6CF4918CDCA4500E26D38</string>
-				<string>52C6CF1B18CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PebbleWeatherNotifier</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF1B18CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF1C18CDC95400E26D38</string>
-				<string>52C6CF1D18CDC95400E26D38</string>
-				<string>52C6CF2018CDC95400E26D38</string>
-				<string>52C6CF2218CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF1C18CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>PebbleWeatherNotifier-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF1D18CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF1E18CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF1E18CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF1F18CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF1D18CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF2018CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF2118CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF2018CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF2218CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PebbleWeatherNotifier-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF2618CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF2718CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF2718CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF2818CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF2618CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF2C18CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF2D18CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF2C18CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF2E18CDC95400E26D38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52C6CF4018CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52C6CF2F18CDC95400E26D38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52C6CF3418CDC95400E26D38</string>
-				<string>52C6CF3618CDC95400E26D38</string>
-				<string>52C6CF3518CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52C6CF3018CDC95400E26D38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52C6CF3E18CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52C6CF3118CDC95400E26D38</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>52C6CF4618CDC95400E26D38</string>
-			<key>buildPhases</key>
-			<array>
-				<string>52C6CF2E18CDC95400E26D38</string>
-				<string>52C6CF2F18CDC95400E26D38</string>
-				<string>52C6CF3018CDC95400E26D38</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>52C6CF3818CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>PebbleWeatherNotifierTests</string>
-			<key>productName</key>
-			<string>PebbleWeatherNotifierTests</string>
-			<key>productReference</key>
-			<string>52C6CF3218CDC95400E26D38</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>52C6CF3218CDC95400E26D38</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>PebbleWeatherNotifierTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>52C6CF3318CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>52C6CF3418CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF3318CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF3518CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF1418CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF3618CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF1818CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF3718CDC95400E26D38</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>52C6CF0918CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>52C6CF1018CDC95400E26D38</string>
-			<key>remoteInfo</key>
-			<string>PebbleWeatherNotifier</string>
-		</dict>
-		<key>52C6CF3818CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>52C6CF1018CDC95400E26D38</string>
-			<key>targetProxy</key>
-			<string>52C6CF3718CDC95400E26D38</string>
-		</dict>
-		<key>52C6CF3918CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF3F18CDC95400E26D38</string>
-				<string>52C6CF3A18CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PebbleWeatherNotifierTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF3A18CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF3B18CDC95400E26D38</string>
-				<string>52C6CF3C18CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF3B18CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>PebbleWeatherNotifierTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF3C18CDC95400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF3D18CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF3D18CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF3E18CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF3C18CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF3F18CDC95400E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PebbleWeatherNotifierTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF4018CDC95400E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF3F18CDC95400E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF4118CDC95400E26D38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>52C6CF4218CDC95400E26D38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>52C6CF4318CDC95400E26D38</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>52C6CF4418CDC95400E26D38</string>
-				<string>52C6CF4518CDC95400E26D38</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>52C6CF4418CDC95400E26D38</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4BACA2E4DC704563B580433D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer: Krisztian Szabo (6KN2G67E7Q)</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer: Krisztian Szabo (6KN2G67E7Q)</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PebbleWeatherNotifier/PebbleWeatherNotifier-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>Grobly</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string>CF05AA0D-82CC-45AC-BC97-C21292670265</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>52C6CF4518CDC95400E26D38</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4BACA2E4DC704563B580433D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Distribution: Krisztian Szabo (64JQC44DL3)</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Distribution: Krisztian Szabo (64JQC44DL3)</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PebbleWeatherNotifier/PebbleWeatherNotifier-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>Grobly</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>52C6CF4618CDC95400E26D38</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>52C6CF4718CDC95400E26D38</string>
-				<string>52C6CF4818CDC95400E26D38</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>52C6CF4718CDC95400E26D38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/PebbleWeatherNotifier.app/PebbleWeatherNotifier</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>PebbleWeatherNotifierTests/PebbleWeatherNotifierTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>52C6CF4818CDC95400E26D38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/PebbleWeatherNotifier.app/PebbleWeatherNotifier</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PebbleWeatherNotifierTests/PebbleWeatherNotifierTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>52C6CF4918CDCA4500E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF5318CDCADA00E26D38</string>
-				<string>52C6CF5418CDCADA00E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AppDelegate</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF4A18CDCA8300E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF6018CDE37E00E26D38</string>
-				<string>52C6CF4F18CDCAC200E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF4B18CDCA8800E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF6418CDE3BC00E26D38</string>
-				<string>52C6CF5C18CDE10000E26D38</string>
-				<string>52C6CF5618CDCEF300E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF4C18CDCAA900E26D38</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF4D18CDCAAE00E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF2618CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF4E18CDCAB400E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF2C18CDC95400E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF4F18CDCAC200E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF5018CDCAD100E26D38</string>
-				<string>52C6CF5118CDCAD100E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MainViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5018CDCAD100E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MainViewController.h</string>
-			<key>path</key>
-			<string>Controller/MainViewController/MainViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5118CDCAD100E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MainViewController.m</string>
-			<key>path</key>
-			<string>Controller/MainViewController/MainViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5218CDCAD100E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF5118CDCAD100E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF5318CDCADA00E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AppDelegate.h</string>
-			<key>path</key>
-			<string>AppDelegate/AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5418CDCADA00E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AppDelegate.m</string>
-			<key>path</key>
-			<string>AppDelegate/AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5518CDCADA00E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF5418CDCADA00E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF5618CDCEF300E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF5718CDCF1500E26D38</string>
-				<string>52C6CF5818CDCF1500E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ApiClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5718CDCF1500E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ApiClient.h</string>
-			<key>path</key>
-			<string>Model/ApiClient/ApiClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5818CDCF1500E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ApiClient.m</string>
-			<key>path</key>
-			<string>Model/ApiClient/ApiClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5918CDCF1500E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF5818CDCF1500E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF5A18CDCF4C00E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreLocation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreLocation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>52C6CF5B18CDCF4C00E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF5A18CDCF4C00E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF5C18CDE10000E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF5D18CDE11A00E26D38</string>
-				<string>52C6CF5E18CDE11A00E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Categories</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5D18CDE11A00E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIColor+Grobly.h</string>
-			<key>path</key>
-			<string>Model/Categories/UIColor+Grobly.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5E18CDE11A00E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIColor+Grobly.m</string>
-			<key>path</key>
-			<string>Model/Categories/UIColor+Grobly.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF5F18CDE11A00E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF5E18CDE11A00E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF6018CDE37E00E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF6118CDE3AD00E26D38</string>
-				<string>52C6CF6218CDE3AD00E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CreateConditionViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF6118CDE3AD00E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CreateConditionViewController.h</string>
-			<key>path</key>
-			<string>Controller/CreateConditionViewController/CreateConditionViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF6218CDE3AD00E26D38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CreateConditionViewController.m</string>
-			<key>path</key>
-			<string>Controller/CreateConditionViewController/CreateConditionViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF6318CDE3AD00E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF6218CDE3AD00E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52C6CF6418CDE3BC00E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF6518CDE3CD00E26D38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CoreData</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF6518CDE3CD00E26D38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52C6CF6618CDE3CD00E26D38</string>
-			</array>
-			<key>currentVersion</key>
-			<string>52C6CF6618CDE3CD00E26D38</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>name</key>
-			<string>Model.xcdatamodeld</string>
-			<key>path</key>
-			<string>Model/CoreData/Model.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>52C6CF6618CDE3CD00E26D38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>Model.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C6CF6718CDE3CD00E26D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52C6CF6518CDE3CD00E26D38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A5441D67B3F044B5AAAEFCCB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AAC8BBC665454306B5E90F65</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B3EA0A8E60724825A28D184C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AAC8BBC665454306B5E90F65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB53C16AACD6431CBB1236BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>52C6CF0918CDC95400E26D38</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C6CF1518CDC95400E26D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1418CDC95400E26D38 /* Foundation.framework */; };
+		52C6CF1718CDC95400E26D38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1618CDC95400E26D38 /* CoreGraphics.framework */; };
+		52C6CF1918CDC95400E26D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1818CDC95400E26D38 /* UIKit.framework */; };
+		52C6CF1F18CDC95400E26D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C6CF1D18CDC95400E26D38 /* InfoPlist.strings */; };
+		52C6CF2118CDC95400E26D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF2018CDC95400E26D38 /* main.m */; };
+		52C6CF2818CDC95400E26D38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C6CF2618CDC95400E26D38 /* Main.storyboard */; };
+		52C6CF2D18CDC95400E26D38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C6CF2C18CDC95400E26D38 /* Images.xcassets */; };
+		52C6CF3418CDC95400E26D38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF3318CDC95400E26D38 /* XCTest.framework */; };
+		52C6CF3518CDC95400E26D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1418CDC95400E26D38 /* Foundation.framework */; };
+		52C6CF3618CDC95400E26D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1818CDC95400E26D38 /* UIKit.framework */; };
+		52C6CF3E18CDC95400E26D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C6CF3C18CDC95400E26D38 /* InfoPlist.strings */; };
+		52C6CF4018CDC95400E26D38 /* PebbleWeatherNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF3F18CDC95400E26D38 /* PebbleWeatherNotifierTests.m */; };
+		52C6CF5218CDCAD100E26D38 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF5118CDCAD100E26D38 /* MainViewController.m */; };
+		52C6CF5518CDCADA00E26D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF5418CDCADA00E26D38 /* AppDelegate.m */; };
+		52C6CF5918CDCF1500E26D38 /* ApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF5818CDCF1500E26D38 /* ApiClient.m */; };
+		52C6CF5B18CDCF4C00E26D38 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF5A18CDCF4C00E26D38 /* CoreLocation.framework */; };
+		52C6CF5F18CDE11A00E26D38 /* UIColor+Grobly.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF5E18CDE11A00E26D38 /* UIColor+Grobly.m */; };
+		52C6CF6318CDE3AD00E26D38 /* CreateConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF6218CDE3AD00E26D38 /* CreateConditionViewController.m */; };
+		52C6CF6718CDE3CD00E26D38 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF6518CDE3CD00E26D38 /* Model.xcdatamodeld */; };
+		52F7C8F218CF0C2E00FFC168 /* SwipeableUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7C8F118CF0C2E00FFC168 /* SwipeableUITextField.m */; };
+		52F7C8F518CF0C6200FFC168 /* UIView+FirstAvailableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7C8F418CF0C6200FFC168 /* UIView+FirstAvailableViewController.m */; };
+		B3EA0A8E60724825A28D184C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC8BBC665454306B5E90F65 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C6CF3718CDC95400E26D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C6CF0918CDC95400E26D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C6CF1018CDC95400E26D38;
+			remoteInfo = PebbleWeatherNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BACA2E4DC704563B580433D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		52C6CF1118CDC95400E26D38 /* Grobly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grobly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6CF1418CDC95400E26D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52C6CF1618CDC95400E26D38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52C6CF1818CDC95400E26D38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52C6CF1C18CDC95400E26D38 /* PebbleWeatherNotifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleWeatherNotifier-Info.plist"; sourceTree = "<group>"; };
+		52C6CF1E18CDC95400E26D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52C6CF2018CDC95400E26D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52C6CF2218CDC95400E26D38 /* PebbleWeatherNotifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PebbleWeatherNotifier-Prefix.pch"; sourceTree = "<group>"; };
+		52C6CF2718CDC95400E26D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52C6CF2C18CDC95400E26D38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52C6CF3218CDC95400E26D38 /* PebbleWeatherNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleWeatherNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6CF3318CDC95400E26D38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52C6CF3B18CDC95400E26D38 /* PebbleWeatherNotifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleWeatherNotifierTests-Info.plist"; sourceTree = "<group>"; };
+		52C6CF3D18CDC95400E26D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52C6CF3F18CDC95400E26D38 /* PebbleWeatherNotifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleWeatherNotifierTests.m; sourceTree = "<group>"; };
+		52C6CF5018CDCAD100E26D38 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controller/MainViewController/MainViewController.h; sourceTree = "<group>"; };
+		52C6CF5118CDCAD100E26D38 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controller/MainViewController/MainViewController.m; sourceTree = "<group>"; };
+		52C6CF5318CDCADA00E26D38 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		52C6CF5418CDCADA00E26D38 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		52C6CF5718CDCF1500E26D38 /* ApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiClient.h; path = Model/ApiClient/ApiClient.h; sourceTree = "<group>"; };
+		52C6CF5818CDCF1500E26D38 /* ApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiClient.m; path = Model/ApiClient/ApiClient.m; sourceTree = "<group>"; };
+		52C6CF5A18CDCF4C00E26D38 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		52C6CF5D18CDE11A00E26D38 /* UIColor+Grobly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Grobly.h"; path = "Model/Categories/UIColor+Grobly.h"; sourceTree = "<group>"; };
+		52C6CF5E18CDE11A00E26D38 /* UIColor+Grobly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Grobly.m"; path = "Model/Categories/UIColor+Grobly.m"; sourceTree = "<group>"; };
+		52C6CF6118CDE3AD00E26D38 /* CreateConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateConditionViewController.h; path = Controller/CreateConditionViewController/CreateConditionViewController.h; sourceTree = "<group>"; };
+		52C6CF6218CDE3AD00E26D38 /* CreateConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateConditionViewController.m; path = Controller/CreateConditionViewController/CreateConditionViewController.m; sourceTree = "<group>"; };
+		52C6CF6618CDE3CD00E26D38 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		52F7C8F018CF0C2E00FFC168 /* SwipeableUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeableUITextField.h; path = Model/Categories/SwipeableUITextField.h; sourceTree = "<group>"; };
+		52F7C8F118CF0C2E00FFC168 /* SwipeableUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeableUITextField.m; path = Model/Categories/SwipeableUITextField.m; sourceTree = "<group>"; };
+		52F7C8F318CF0C6200FFC168 /* UIView+FirstAvailableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FirstAvailableViewController.h"; path = "Model/Categories/UIView+FirstAvailableViewController.h"; sourceTree = "<group>"; };
+		52F7C8F418CF0C6200FFC168 /* UIView+FirstAvailableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FirstAvailableViewController.m"; path = "Model/Categories/UIView+FirstAvailableViewController.m"; sourceTree = "<group>"; };
+		AAC8BBC665454306B5E90F65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C6CF0E18CDC95400E26D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6CF5B18CDCF4C00E26D38 /* CoreLocation.framework in Frameworks */,
+				52C6CF1718CDC95400E26D38 /* CoreGraphics.framework in Frameworks */,
+				52C6CF1918CDC95400E26D38 /* UIKit.framework in Frameworks */,
+				52C6CF1518CDC95400E26D38 /* Foundation.framework in Frameworks */,
+				B3EA0A8E60724825A28D184C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6CF2F18CDC95400E26D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6CF3418CDC95400E26D38 /* XCTest.framework in Frameworks */,
+				52C6CF3618CDC95400E26D38 /* UIKit.framework in Frameworks */,
+				52C6CF3518CDC95400E26D38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C6CF0818CDC95400E26D38 = {
+			isa = PBXGroup;
+			children = (
+				52C6CF1A18CDC95400E26D38 /* PebbleWeatherNotifier */,
+				52C6CF3918CDC95400E26D38 /* PebbleWeatherNotifierTests */,
+				52C6CF1318CDC95400E26D38 /* Frameworks */,
+				52C6CF1218CDC95400E26D38 /* Products */,
+				4BACA2E4DC704563B580433D /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		52C6CF1218CDC95400E26D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF1118CDC95400E26D38 /* Grobly.app */,
+				52C6CF3218CDC95400E26D38 /* PebbleWeatherNotifierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C6CF1318CDC95400E26D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF5A18CDCF4C00E26D38 /* CoreLocation.framework */,
+				52C6CF1418CDC95400E26D38 /* Foundation.framework */,
+				52C6CF1618CDC95400E26D38 /* CoreGraphics.framework */,
+				52C6CF1818CDC95400E26D38 /* UIKit.framework */,
+				52C6CF3318CDC95400E26D38 /* XCTest.framework */,
+				AAC8BBC665454306B5E90F65 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C6CF1A18CDC95400E26D38 /* PebbleWeatherNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF4E18CDCAB400E26D38 /* Resources */,
+				52C6CF4D18CDCAAE00E26D38 /* Storyboard */,
+				52C6CF4C18CDCAA900E26D38 /* View */,
+				52C6CF4B18CDCA8800E26D38 /* Model */,
+				52C6CF4A18CDCA8300E26D38 /* Controller */,
+				52C6CF4918CDCA4500E26D38 /* AppDelegate */,
+				52C6CF1B18CDC95400E26D38 /* Supporting Files */,
+			);
+			path = PebbleWeatherNotifier;
+			sourceTree = "<group>";
+		};
+		52C6CF1B18CDC95400E26D38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF1C18CDC95400E26D38 /* PebbleWeatherNotifier-Info.plist */,
+				52C6CF1D18CDC95400E26D38 /* InfoPlist.strings */,
+				52C6CF2018CDC95400E26D38 /* main.m */,
+				52C6CF2218CDC95400E26D38 /* PebbleWeatherNotifier-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52C6CF3918CDC95400E26D38 /* PebbleWeatherNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF3F18CDC95400E26D38 /* PebbleWeatherNotifierTests.m */,
+				52C6CF3A18CDC95400E26D38 /* Supporting Files */,
+			);
+			path = PebbleWeatherNotifierTests;
+			sourceTree = "<group>";
+		};
+		52C6CF3A18CDC95400E26D38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF3B18CDC95400E26D38 /* PebbleWeatherNotifierTests-Info.plist */,
+				52C6CF3C18CDC95400E26D38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52C6CF4918CDCA4500E26D38 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF5318CDCADA00E26D38 /* AppDelegate.h */,
+				52C6CF5418CDCADA00E26D38 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		52C6CF4A18CDCA8300E26D38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF6018CDE37E00E26D38 /* CreateConditionViewController */,
+				52C6CF4F18CDCAC200E26D38 /* MainViewController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		52C6CF4B18CDCA8800E26D38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF6418CDE3BC00E26D38 /* CoreData */,
+				52C6CF5C18CDE10000E26D38 /* Categories */,
+				52C6CF5618CDCEF300E26D38 /* ApiClient */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52C6CF4C18CDCAA900E26D38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52C6CF4D18CDCAAE00E26D38 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF2618CDC95400E26D38 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		52C6CF4E18CDCAB400E26D38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF2C18CDC95400E26D38 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		52C6CF4F18CDCAC200E26D38 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF5018CDCAD100E26D38 /* MainViewController.h */,
+				52C6CF5118CDCAD100E26D38 /* MainViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		52C6CF5618CDCEF300E26D38 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF5718CDCF1500E26D38 /* ApiClient.h */,
+				52C6CF5818CDCF1500E26D38 /* ApiClient.m */,
+			);
+			name = ApiClient;
+			sourceTree = "<group>";
+		};
+		52C6CF5C18CDE10000E26D38 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				52F7C8F318CF0C6200FFC168 /* UIView+FirstAvailableViewController.h */,
+				52F7C8F418CF0C6200FFC168 /* UIView+FirstAvailableViewController.m */,
+				52F7C8F018CF0C2E00FFC168 /* SwipeableUITextField.h */,
+				52F7C8F118CF0C2E00FFC168 /* SwipeableUITextField.m */,
+				52C6CF5D18CDE11A00E26D38 /* UIColor+Grobly.h */,
+				52C6CF5E18CDE11A00E26D38 /* UIColor+Grobly.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		52C6CF6018CDE37E00E26D38 /* CreateConditionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF6118CDE3AD00E26D38 /* CreateConditionViewController.h */,
+				52C6CF6218CDE3AD00E26D38 /* CreateConditionViewController.m */,
+			);
+			name = CreateConditionViewController;
+			sourceTree = "<group>";
+		};
+		52C6CF6418CDE3BC00E26D38 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				52C6CF6518CDE3CD00E26D38 /* Model.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C6CF1018CDC95400E26D38 /* PebbleWeatherNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C6CF4318CDC95400E26D38 /* Build configuration list for PBXNativeTarget "PebbleWeatherNotifier" */;
+			buildPhases = (
+				CB53C16AACD6431CBB1236BA /* Check Pods Manifest.lock */,
+				52C6CF0D18CDC95400E26D38 /* Sources */,
+				52C6CF0E18CDC95400E26D38 /* Frameworks */,
+				52C6CF0F18CDC95400E26D38 /* Resources */,
+				A5441D67B3F044B5AAAEFCCB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PebbleWeatherNotifier;
+			productName = PebbleWeatherNotifier;
+			productReference = 52C6CF1118CDC95400E26D38 /* Grobly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52C6CF3118CDC95400E26D38 /* PebbleWeatherNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C6CF4618CDC95400E26D38 /* Build configuration list for PBXNativeTarget "PebbleWeatherNotifierTests" */;
+			buildPhases = (
+				52C6CF2E18CDC95400E26D38 /* Sources */,
+				52C6CF2F18CDC95400E26D38 /* Frameworks */,
+				52C6CF3018CDC95400E26D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C6CF3818CDC95400E26D38 /* PBXTargetDependency */,
+			);
+			name = PebbleWeatherNotifierTests;
+			productName = PebbleWeatherNotifierTests;
+			productReference = 52C6CF3218CDC95400E26D38 /* PebbleWeatherNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C6CF0918CDC95400E26D38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Krisztian Szabo";
+				TargetAttributes = {
+					52C6CF1018CDC95400E26D38 = {
+						DevelopmentTeam = 64JQC44DL3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					52C6CF3118CDC95400E26D38 = {
+						TestTargetID = 52C6CF1018CDC95400E26D38;
+					};
+				};
+			};
+			buildConfigurationList = 52C6CF0C18CDC95400E26D38 /* Build configuration list for PBXProject "PebbleWeatherNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52C6CF0818CDC95400E26D38;
+			productRefGroup = 52C6CF1218CDC95400E26D38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C6CF1018CDC95400E26D38 /* PebbleWeatherNotifier */,
+				52C6CF3118CDC95400E26D38 /* PebbleWeatherNotifierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C6CF0F18CDC95400E26D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6CF2D18CDC95400E26D38 /* Images.xcassets in Resources */,
+				52C6CF1F18CDC95400E26D38 /* InfoPlist.strings in Resources */,
+				52C6CF2818CDC95400E26D38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6CF3018CDC95400E26D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6CF3E18CDC95400E26D38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5441D67B3F044B5AAAEFCCB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB53C16AACD6431CBB1236BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C6CF0D18CDC95400E26D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6CF5218CDCAD100E26D38 /* MainViewController.m in Sources */,
+				52C6CF2118CDC95400E26D38 /* main.m in Sources */,
+				52C6CF5518CDCADA00E26D38 /* AppDelegate.m in Sources */,
+				52C6CF6718CDE3CD00E26D38 /* Model.xcdatamodeld in Sources */,
+				52F7C8F218CF0C2E00FFC168 /* SwipeableUITextField.m in Sources */,
+				52C6CF5F18CDE11A00E26D38 /* UIColor+Grobly.m in Sources */,
+				52F7C8F518CF0C6200FFC168 /* UIView+FirstAvailableViewController.m in Sources */,
+				52C6CF6318CDE3AD00E26D38 /* CreateConditionViewController.m in Sources */,
+				52C6CF5918CDCF1500E26D38 /* ApiClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6CF2E18CDC95400E26D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6CF4018CDC95400E26D38 /* PebbleWeatherNotifierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C6CF3818CDC95400E26D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C6CF1018CDC95400E26D38 /* PebbleWeatherNotifier */;
+			targetProxy = 52C6CF3718CDC95400E26D38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52C6CF1D18CDC95400E26D38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6CF1E18CDC95400E26D38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52C6CF2618CDC95400E26D38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6CF2718CDC95400E26D38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52C6CF3C18CDC95400E26D38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6CF3D18CDC95400E26D38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52C6CF4118CDC95400E26D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52C6CF4218CDC95400E26D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C6CF4418CDC95400E26D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BACA2E4DC704563B580433D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Krisztian Szabo (6KN2G67E7Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Krisztian Szabo (6KN2G67E7Q)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch";
+				INFOPLIST_FILE = "PebbleWeatherNotifier/PebbleWeatherNotifier-Info.plist";
+				PRODUCT_NAME = Grobly;
+				PROVISIONING_PROFILE = "CF05AA0D-82CC-45AC-BC97-C21292670265";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52C6CF4518CDC95400E26D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BACA2E4DC704563B580433D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Krisztian Szabo (64JQC44DL3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Krisztian Szabo (64JQC44DL3)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch";
+				INFOPLIST_FILE = "PebbleWeatherNotifier/PebbleWeatherNotifier-Info.plist";
+				PRODUCT_NAME = Grobly;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52C6CF4718CDC95400E26D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleWeatherNotifier.app/PebbleWeatherNotifier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PebbleWeatherNotifierTests/PebbleWeatherNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52C6CF4818CDC95400E26D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleWeatherNotifier.app/PebbleWeatherNotifier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch";
+				INFOPLIST_FILE = "PebbleWeatherNotifierTests/PebbleWeatherNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C6CF0C18CDC95400E26D38 /* Build configuration list for PBXProject "PebbleWeatherNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6CF4118CDC95400E26D38 /* Debug */,
+				52C6CF4218CDC95400E26D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C6CF4318CDC95400E26D38 /* Build configuration list for PBXNativeTarget "PebbleWeatherNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6CF4418CDC95400E26D38 /* Debug */,
+				52C6CF4518CDC95400E26D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C6CF4618CDC95400E26D38 /* Build configuration list for PBXNativeTarget "PebbleWeatherNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6CF4718CDC95400E26D38 /* Debug */,
+				52C6CF4818CDC95400E26D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52C6CF6518CDE3CD00E26D38 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52C6CF6618CDE3CD00E26D38 /* Model.xcdatamodel */,
+			);
+			currentVersion = 52C6CF6618CDE3CD00E26D38 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = Model/CoreData/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52C6CF0918CDC95400E26D38 /* Project object */;
+}
