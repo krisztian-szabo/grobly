@@ -2,8 +2,8 @@
 //  UIView+FirstAvailableViewController.m
 //  Elho
 //
-//  Created by Szabó Krisztián on 3/10/14.
-//  Copyright (c) 2014 Krisztian Szabo. All rights reserved.
+//  Created by Dick Verbunt on 26-07-12.
+//  Copyright (c) 2012 Idreams. All rights reserved.
 //
 
 #import "UIView+FirstAvailableViewController.h"
@@ -11,6 +11,7 @@
 @implementation UIView (FirstAvailableViewController)
 
 - (UIViewController *)firstAvailableUIViewController {
+    // convenience function for casting and to "mask" the recursive function
     return (UIViewController *)[self traverseResponderChainForUIViewController];
 }
 

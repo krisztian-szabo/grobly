@@ -8,22 +8,45 @@
 
 #import "MainViewController.h"
 
-#import "UIColor+Grobly.h"
+#import "ConditionTableViewCell.h"
 
-@interface MainViewController ()
+#import <NSManagedObject+InnerBand.h>
+
+@interface MainViewController () <UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) NSMutableArray *items;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end
 
 @implementation MainViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    self.items = [[Condition all] mutableCopy];
+    [self.tableView reloadData];
 }
 
-#pragma mark - 
-#pragma mark - Create New Condition
+#pragma mark - UITableViewDataSource && UITableViewDelegate
 
--(void)addNewCondition {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.items.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *CellIdentifier = @"ConditionTableViewCell";
+    ConditionTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (!cell) {
+        cell = [ConditionTableViewCell loadNibNamed:@"ConditionTableViewCell" ofClass:[ConditionTableViewCell class]];
+    }
+    
+    Condition *condition = (Condition*)self.items[indexPath.row];
+    cell.condition = condition;
+    [cell updateCell];
+    
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 }
 

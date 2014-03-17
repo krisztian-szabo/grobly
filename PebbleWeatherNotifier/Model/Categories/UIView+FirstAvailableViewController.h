@@ -2,9 +2,14 @@
 //  UIView+FirstAvailableViewController.h
 //  Elho
 //
-//  Created by Szabó Krisztián on 3/10/14.
-//  Copyright (c) 2014 Krisztian Szabo. All rights reserved.
+//  Created by Dick Verbunt on 26-07-12.
+//  Copyright (c) 2012 Idreams. All rights reserved.
 //
+
+/* 
+ DESCRIPTION
+ Gets the first viewController of an UIView
+ */
 
 #import <UIKit/UIKit.h>
 

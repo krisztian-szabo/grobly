@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B0E1CB18D70D3800352317 /* ConditionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0E1CA18D70D3800352317 /* ConditionTableViewCell.m */; };
+		52B0E1CE18D70EA900352317 /* UIView+NibLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0E1CD18D70EA900352317 /* UIView+NibLoad.m */; };
 		52C6CF1518CDC95400E26D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1418CDC95400E26D38 /* Foundation.framework */; };
 		52C6CF1718CDC95400E26D38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1618CDC95400E26D38 /* CoreGraphics.framework */; };
 		52C6CF1918CDC95400E26D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6CF1818CDC95400E26D38 /* UIKit.framework */; };
@@ -45,6 +47,10 @@
 
 /* Begin PBXFileReference section */
 		4BACA2E4DC704563B580433D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		52B0E1C918D70D3800352317 /* ConditionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConditionTableViewCell.h; path = View/ConditionTableViewCell/ConditionTableViewCell.h; sourceTree = "<group>"; };
+		52B0E1CA18D70D3800352317 /* ConditionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConditionTableViewCell.m; path = View/ConditionTableViewCell/ConditionTableViewCell.m; sourceTree = "<group>"; };
+		52B0E1CC18D70EA900352317 /* UIView+NibLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+NibLoad.h"; path = "Model/Categories/UIView+NibLoad.h"; sourceTree = "<group>"; };
+		52B0E1CD18D70EA900352317 /* UIView+NibLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+NibLoad.m"; path = "Model/Categories/UIView+NibLoad.m"; sourceTree = "<group>"; };
 		52C6CF1118CDC95400E26D38 /* Grobly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grobly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C6CF1418CDC95400E26D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52C6CF1618CDC95400E26D38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52B0E1C818D70D0F00352317 /* ConditionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				52B0E1C918D70D3800352317 /* ConditionTableViewCell.h */,
+				52B0E1CA18D70D3800352317 /* ConditionTableViewCell.m */,
+			);
+			name = ConditionTableViewCell;
+			sourceTree = "<group>";
+		};
 		52C6CF0818CDC95400E26D38 = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +229,7 @@
 		52C6CF4C18CDCAA900E26D38 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				52B0E1C818D70D0F00352317 /* ConditionTableViewCell */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -255,6 +271,8 @@
 		52C6CF5C18CDE10000E26D38 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				52B0E1CC18D70EA900352317 /* UIView+NibLoad.h */,
+				52B0E1CD18D70EA900352317 /* UIView+NibLoad.m */,
 				52F7C8F318CF0C6200FFC168 /* UIView+FirstAvailableViewController.h */,
 				52F7C8F418CF0C6200FFC168 /* UIView+FirstAvailableViewController.m */,
 				52F7C8F018CF0C2E00FFC168 /* SwipeableUITextField.h */,
@@ -432,7 +450,9 @@
 				52C6CF5F18CDE11A00E26D38 /* UIColor+Grobly.m in Sources */,
 				52F7C8F518CF0C6200FFC168 /* UIView+FirstAvailableViewController.m in Sources */,
 				52C6CF6318CDE3AD00E26D38 /* CreateConditionViewController.m in Sources */,
+				52B0E1CE18D70EA900352317 /* UIView+NibLoad.m in Sources */,
 				52C6CF5918CDCF1500E26D38 /* ApiClient.m in Sources */,
+				52B0E1CB18D70D3800352317 /* ConditionTableViewCell.m in Sources */,
 				52F7C8F818CF0EFB00FFC168 /* Condition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
