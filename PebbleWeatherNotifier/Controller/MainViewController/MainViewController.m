@@ -12,7 +12,9 @@
 
 #import <NSManagedObject+InnerBand.h>
 
-@interface MainViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface MainViewController () <UITableViewDelegate, UITableViewDataSource> {
+    Condition *selectedCondition;
+}
 @property (strong, nonatomic) NSMutableArray *items;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end
@@ -47,7 +49,17 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    selectedCondition = (Condition*)self.items[indexPath.row];
+}
+
+- (IBAction)deleteItem:(id)sender {
+    if (selectedCondition) {
+        [self.items removeObject:selectedCondition];
+        [selectedCondition destroy];
+        [[IBCoreDataStore mainStore] save];
+        [self.tableView reloadData];
+        selectedCondition = nil;
+    }
 }
 
 @end
