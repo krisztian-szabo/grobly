@@ -28,6 +28,8 @@
 		52C6CF6718CDE3CD00E26D38 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CF6518CDE3CD00E26D38 /* Model.xcdatamodeld */; };
 		52F7C8F218CF0C2E00FFC168 /* SwipeableUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7C8F118CF0C2E00FFC168 /* SwipeableUITextField.m */; };
 		52F7C8F518CF0C6200FFC168 /* UIView+FirstAvailableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7C8F418CF0C6200FFC168 /* UIView+FirstAvailableViewController.m */; };
+		52F7C8F818CF0EFB00FFC168 /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7C8F718CF0EFB00FFC168 /* Condition.m */; };
+		52F7C8F918CF0EFB00FFC168 /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7C8F718CF0EFB00FFC168 /* Condition.m */; };
 		B3EA0A8E60724825A28D184C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC8BBC665454306B5E90F65 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		52F7C8F118CF0C2E00FFC168 /* SwipeableUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeableUITextField.m; path = Model/Categories/SwipeableUITextField.m; sourceTree = "<group>"; };
 		52F7C8F318CF0C6200FFC168 /* UIView+FirstAvailableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FirstAvailableViewController.h"; path = "Model/Categories/UIView+FirstAvailableViewController.h"; sourceTree = "<group>"; };
 		52F7C8F418CF0C6200FFC168 /* UIView+FirstAvailableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FirstAvailableViewController.m"; path = "Model/Categories/UIView+FirstAvailableViewController.m"; sourceTree = "<group>"; };
+		52F7C8F618CF0EFB00FFC168 /* Condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Condition.h; path = Model/CoreData/Condition.h; sourceTree = "<group>"; };
+		52F7C8F718CF0EFB00FFC168 /* Condition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Condition.m; path = Model/CoreData/Condition.m; sourceTree = "<group>"; };
 		AAC8BBC665454306B5E90F65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -274,6 +278,8 @@
 			isa = PBXGroup;
 			children = (
 				52C6CF6518CDE3CD00E26D38 /* Model.xcdatamodeld */,
+				52F7C8F618CF0EFB00FFC168 /* Condition.h */,
+				52F7C8F718CF0EFB00FFC168 /* Condition.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -427,6 +433,7 @@
 				52F7C8F518CF0C6200FFC168 /* UIView+FirstAvailableViewController.m in Sources */,
 				52C6CF6318CDE3AD00E26D38 /* CreateConditionViewController.m in Sources */,
 				52C6CF5918CDCF1500E26D38 /* ApiClient.m in Sources */,
+				52F7C8F818CF0EFB00FFC168 /* Condition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C6CF4018CDC95400E26D38 /* PebbleWeatherNotifierTests.m in Sources */,
+				52F7C8F918CF0EFB00FFC168 /* Condition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

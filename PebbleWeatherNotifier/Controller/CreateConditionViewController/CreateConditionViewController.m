@@ -9,7 +9,10 @@
 #import "CreateConditionViewController.h"
 
 #import <CoreLocation/CoreLocation.h>
+#import <IBCoreDataStore.h>
 #import <SVProgressHUD.h>
+
+#import "Condition.h"
 
 enum UnitType {
     TypeMetric = 0,
@@ -119,6 +122,21 @@ enum UnitType {
                           otherButtonTitles:nil] show];
         return;
     }
+    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:                          
+                          self.conditionNameValue.text, @"name",
+                          @(self.currentLocation.coordinate.latitude), @"latitude",
+                          @(self.currentLocation.coordinate.longitude), @"longitude",
+                          self.tempBelowValue.text, @"temp_below",
+                          self.tempAboveValue.text, @"temp_above",
+                          self.speedBelowValue.text, @"speed_below",
+                          self.speedAboveValue.text, @"speed_above",
+                          self.humidityBelowValue.text, @"humidity_below",
+                          self.humidityAboveValue.text, @"humidity_above",
+                          @(unitType), @"type",
+                          nil];
+    [Condition createManagedObjectFromDictionary:dict];
+    [[IBCoreDataStore mainStore] save];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)cancel:(id)sender {

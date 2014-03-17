@@ -8,11 +8,14 @@
 
 #import "AppDelegate.h"
 
+#import <IBCoreDataStore.h>
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [IBCoreDataStore createStore]; //instantiate core data
+    
     return YES;
 }
 
