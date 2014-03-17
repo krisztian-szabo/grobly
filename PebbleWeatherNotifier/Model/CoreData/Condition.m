@@ -63,4 +63,12 @@
     return obj;
 }
 
+-(NSString*)unitTypeForTemperature {
+    return ([self.type integerValue] == 0) ? NSLocalizedString(@"°C", nil) : NSLocalizedString(@"°F", nil);
+}
+
+-(NSString*)unitTypeForSpeed {
+    return ([self.type integerValue] == 0) ? NSLocalizedString(@"Kmph", nil) : NSLocalizedString(@"Mph", nil);
+}
+
 @end

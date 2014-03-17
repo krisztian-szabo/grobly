@@ -10,12 +10,14 @@
 
 #import <IBCoreDataStore.h>
 
+#import "ConditionHandler.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [IBCoreDataStore createStore]; //instantiate core data
-    
+
     return YES;
 }
 
@@ -25,7 +27,7 @@
 }
 
 -(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
-    // TODO
+    [ConditionHandler handleConditions];
     completionHandler(UIBackgroundFetchResultNewData);
 }
 							

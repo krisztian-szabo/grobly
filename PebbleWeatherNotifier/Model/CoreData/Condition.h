@@ -29,5 +29,7 @@
 
 +(Condition*)getConditionWithId:(NSString*)objId;
 
+-(NSString*)unitTypeForTemperature;
+-(NSString*)unitTypeForSpeed;
 
 @end

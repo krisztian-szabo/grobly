@@ -22,8 +22,8 @@
 @implementation ConditionTableViewCell
 
 -(void)updateCell {
-    NSString *unitTemp = ([self.condition.type integerValue] == 0) ? NSLocalizedString(@"°C", nil) : NSLocalizedString(@"°F", nil);
-    NSString *unitSpeed = ([self.condition.type integerValue] == 0) ? NSLocalizedString(@"Kmph", nil) : NSLocalizedString(@"Mph", nil);
+    NSString *unitTemp = [self.condition unitTypeForTemperature];
+    NSString *unitSpeed = [self.condition unitTypeForSpeed];
     self.nameLabel.text = self.condition.name;
     self.tempMinLabel.text = [NSString stringWithFormat:@"< %@ %@", ([self.condition.tempBelow integerValue] == INT16_MIN) ? @"-" : self.condition.tempBelow, unitTemp];
     self.tempMaxLabel.text = [NSString stringWithFormat:@"> %@ %@", ([self.condition.tempAbove integerValue] == INT16_MIN) ? @"-" : self.condition.tempAbove, unitTemp];
