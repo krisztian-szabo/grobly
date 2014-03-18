@@ -642,7 +642,7 @@
 				GCC_PREFIX_HEADER = "PebbleWeatherNotifier/PebbleWeatherNotifier-Prefix.pch";
 				INFOPLIST_FILE = "PebbleWeatherNotifier/PebbleWeatherNotifier-Info.plist";
 				PRODUCT_NAME = Grobly;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "0371AD32-9F1E-416E-82E1-388559659A1A";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
