@@ -12,6 +12,9 @@
 
 #import <NSManagedObject+InnerBand.h>
 
+#import "PebbleManager.h"
+#import "ConditionHandler.h"
+
 @interface MainViewController () <UITableViewDelegate, UITableViewDataSource> {
     Condition *selectedCondition;
 }
@@ -20,6 +23,14 @@
 @end
 
 @implementation MainViewController
+
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^(void) {
+        [ConditionHandler handleConditions];
+    });
+}
 
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -50,6 +61,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     selectedCondition = (Condition*)self.items[indexPath.row];
+    [[PebbleManager sharedManager] sendPebbleCondition:selectedCondition];
 }
 
 - (IBAction)deleteItem:(id)sender {

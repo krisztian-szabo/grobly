@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523AB82E18D774EA001A1722 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AB82D18D774EA001A1722 /* ExternalAccessory.framework */; };
+		523AB83018D774F4001A1722 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AB82F18D774F4001A1722 /* libz.dylib */; };
+		523AB83218D774FD001A1722 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AB83118D774FD001A1722 /* CoreBluetooth.framework */; };
+		523AB83418D77502001A1722 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AB83318D77502001A1722 /* CoreMotion.framework */; };
+		523AB83618D77508001A1722 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AB83518D77508001A1722 /* CFNetwork.framework */; };
+		523AB83818D7750D001A1722 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AB83718D7750D001A1722 /* MessageUI.framework */; };
+		526BED4C18D88B5300BDDDB8 /* PebbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 526BED4B18D88B5300BDDDB8 /* PebbleManager.m */; };
 		52B0E1CB18D70D3800352317 /* ConditionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0E1CA18D70D3800352317 /* ConditionTableViewCell.m */; };
 		52B0E1CE18D70EA900352317 /* UIView+NibLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0E1CD18D70EA900352317 /* UIView+NibLoad.m */; };
 		52B0E1D218D712DC00352317 /* ConditionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0E1D118D712DC00352317 /* ConditionHandler.m */; };
@@ -47,6 +54,14 @@
 
 /* Begin PBXFileReference section */
 		4BACA2E4DC704563B580433D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		523AB82D18D774EA001A1722 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		523AB82F18D774F4001A1722 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		523AB83118D774FD001A1722 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		523AB83318D77502001A1722 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		523AB83518D77508001A1722 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		523AB83718D7750D001A1722 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		526BED4A18D88B5300BDDDB8 /* PebbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PebbleManager.h; path = Model/PebbleManager/PebbleManager.h; sourceTree = "<group>"; };
+		526BED4B18D88B5300BDDDB8 /* PebbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PebbleManager.m; path = Model/PebbleManager/PebbleManager.m; sourceTree = "<group>"; };
 		52B0E1C918D70D3800352317 /* ConditionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConditionTableViewCell.h; path = View/ConditionTableViewCell/ConditionTableViewCell.h; sourceTree = "<group>"; };
 		52B0E1CA18D70D3800352317 /* ConditionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConditionTableViewCell.m; path = View/ConditionTableViewCell/ConditionTableViewCell.m; sourceTree = "<group>"; };
 		52B0E1CC18D70EA900352317 /* UIView+NibLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+NibLoad.h"; path = "Model/Categories/UIView+NibLoad.h"; sourceTree = "<group>"; };
@@ -92,6 +107,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523AB83818D7750D001A1722 /* MessageUI.framework in Frameworks */,
+				523AB83618D77508001A1722 /* CFNetwork.framework in Frameworks */,
+				523AB83418D77502001A1722 /* CoreMotion.framework in Frameworks */,
+				523AB83218D774FD001A1722 /* CoreBluetooth.framework in Frameworks */,
+				523AB83018D774F4001A1722 /* libz.dylib in Frameworks */,
+				523AB82E18D774EA001A1722 /* ExternalAccessory.framework in Frameworks */,
 				52C6CF5B18CDCF4C00E26D38 /* CoreLocation.framework in Frameworks */,
 				52C6CF1718CDC95400E26D38 /* CoreGraphics.framework in Frameworks */,
 				52C6CF1918CDC95400E26D38 /* UIKit.framework in Frameworks */,
@@ -113,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526BED4918D88B3A00BDDDB8 /* PebbleManager */ = {
+			isa = PBXGroup;
+			children = (
+				526BED4A18D88B5300BDDDB8 /* PebbleManager.h */,
+				526BED4B18D88B5300BDDDB8 /* PebbleManager.m */,
+			);
+			name = PebbleManager;
+			sourceTree = "<group>";
+		};
 		52B0E1C818D70D0F00352317 /* ConditionTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +184,12 @@
 		52C6CF1318CDC95400E26D38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				523AB83718D7750D001A1722 /* MessageUI.framework */,
+				523AB83518D77508001A1722 /* CFNetwork.framework */,
+				523AB83318D77502001A1722 /* CoreMotion.framework */,
+				523AB83118D774FD001A1722 /* CoreBluetooth.framework */,
+				523AB82F18D774F4001A1722 /* libz.dylib */,
+				523AB82D18D774EA001A1722 /* ExternalAccessory.framework */,
 				52C6CF5A18CDCF4C00E26D38 /* CoreLocation.framework */,
 				52C6CF1418CDC95400E26D38 /* Foundation.framework */,
 				52C6CF1618CDC95400E26D38 /* CoreGraphics.framework */,
@@ -228,6 +264,7 @@
 		52C6CF4B18CDCA8800E26D38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				526BED4918D88B3A00BDDDB8 /* PebbleManager */,
 				52B0E1CF18D712C700352317 /* ConditionHandler */,
 				52C6CF6418CDE3BC00E26D38 /* CoreData */,
 				52C6CF5C18CDE10000E26D38 /* Categories */,
@@ -348,7 +385,7 @@
 		52C6CF0918CDC95400E26D38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Krisztian Szabo";
 				TargetAttributes = {
 					52C6CF1018CDC95400E26D38 = {
@@ -446,6 +483,7 @@
 				52C6CF2118CDC95400E26D38 /* main.m in Sources */,
 				52C6CF5518CDCADA00E26D38 /* AppDelegate.m in Sources */,
 				52C6CF6718CDE3CD00E26D38 /* Model.xcdatamodeld in Sources */,
+				526BED4C18D88B5300BDDDB8 /* PebbleManager.m in Sources */,
 				52F7C8F218CF0C2E00FFC168 /* SwipeableUITextField.m in Sources */,
 				52C6CF5F18CDE11A00E26D38 /* UIColor+Grobly.m in Sources */,
 				52F7C8F518CF0C6200FFC168 /* UIView+FirstAvailableViewController.m in Sources */,
@@ -508,7 +546,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -547,7 +584,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -615,7 +651,6 @@
 		52C6CF4718CDC95400E26D38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleWeatherNotifier.app/PebbleWeatherNotifier";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -638,7 +673,6 @@
 		52C6CF4818CDC95400E26D38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleWeatherNotifier.app/PebbleWeatherNotifier";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

@@ -22,6 +22,10 @@
 @dynamic longitude;
 @dynamic name;
 @dynamic type;
+@dynamic temperature;
+@dynamic speed;
+@dynamic humidity;
+@dynamic weather_code;
 
 -(void)populateFromDictionary:(NSDictionary*)dict {
     self.tempBelow = (dict[@"temp_below"] && ![dict[@"temp_below"] isEqualToString:@""]) ? @([dict[@"temp_below"] integerValue])  : @(INT16_MIN);

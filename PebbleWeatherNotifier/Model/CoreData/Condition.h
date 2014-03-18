@@ -14,14 +14,18 @@
 
 @property (nonatomic, retain) NSNumber * humidityAbove;
 @property (nonatomic, retain) NSNumber * humidityBelow;
-@property (nonatomic, retain) NSNumber * latitude;
-@property (nonatomic, retain) NSNumber * longitude;
-@property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * speedAbove;
 @property (nonatomic, retain) NSNumber * speedBelow;
 @property (nonatomic, retain) NSNumber * tempAbove;
 @property (nonatomic, retain) NSNumber * tempBelow;
+@property (nonatomic, retain) NSNumber * latitude;
+@property (nonatomic, retain) NSNumber * longitude;
+@property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * type;
+@property (nonatomic, retain) NSNumber * temperature;
+@property (nonatomic, retain) NSNumber * humidity;
+@property (nonatomic, retain) NSNumber * speed;
+@property (nonatomic, retain) NSNumber * weather_code;
 
 -(void)populateFromDictionary:(NSDictionary*)dict;
 +(Condition*)createManagedObjectFromDictionary:(NSDictionary*)dict;

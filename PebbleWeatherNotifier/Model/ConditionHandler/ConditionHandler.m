@@ -50,38 +50,41 @@
     
     NSArray *currentCondition = [weather objectForKey:@"current_condition"];
     NSDictionary *tempDictionary = [currentCondition objectAtIndex:0];
-    NSNumber *temp, *humidity, *speed;
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
     if ([condition.type integerValue] == 0) {
-        temp = [tempDictionary valueForKey:@"temp_C"];
-        speed = [tempDictionary valueForKey:@"windspeedKmph"];
+        condition.temperature = [f numberFromString:[tempDictionary valueForKey:@"temp_C"]];
+        condition.speed = [f numberFromString:[tempDictionary valueForKey:@"windspeedKmph"]];
     } else {
-        temp = [tempDictionary valueForKey:@"temp_F"];
-        speed = [tempDictionary valueForKey:@"windspeedMiles"];
+        condition.temperature = [f numberFromString:[tempDictionary valueForKey:@"temp_F"]];
+        condition.speed = [f numberFromString:[tempDictionary valueForKey:@"windspeedMiles"]];
     }
-    humidity = [tempDictionary valueForKey:@"humidity"];
+    condition.humidity = [f numberFromString:[tempDictionary valueForKey:@"humidity"]];
+    condition.weather_code = [f numberFromString:[tempDictionary valueForKey:@"weatherCode"]];
+    [[IBCoreDataStore mainStore] save];
     
-    if ([temp integerValue] <= [condition.tempBelow integerValue] && [condition.tempBelow integerValue] != INT16_MIN) {
-        *messagePtr = [NSString stringWithFormat:@"The temperature is below %d%@!", [condition.tempBelow integerValue], [condition unitTypeForTemperature]];
+    if ([condition.temperature integerValue] <= [condition.tempBelow integerValue] && [condition.tempBelow integerValue] != INT16_MIN) {
+        *messagePtr = [NSString stringWithFormat:@"The temperature is below %d%@!", [condition.tempBelow intValue], [condition unitTypeForTemperature]];
         return NO;
     }
-    if ([temp integerValue] >= [condition.tempAbove integerValue] && [condition.tempAbove integerValue] != INT16_MIN) {
-        *messagePtr = [NSString stringWithFormat:@"The temperature is above %d%@!", [condition.tempAbove integerValue], [condition unitTypeForTemperature]];
+    if ([condition.temperature integerValue] >= [condition.tempAbove integerValue] && [condition.tempAbove integerValue] != INT16_MIN) {
+        *messagePtr = [NSString stringWithFormat:@"The temperature is above %d%@!", [condition.tempAbove intValue], [condition unitTypeForTemperature]];
         return NO;
     }
-    if ([speed integerValue] <= [condition.speedBelow integerValue] && [condition.speedBelow integerValue] != INT16_MIN) {
-        *messagePtr = [NSString stringWithFormat:@"The wind speed is below %d%@!", [condition.speedBelow integerValue], [condition unitTypeForSpeed]];
+    if ([condition.speed integerValue] <= [condition.speedBelow integerValue] && [condition.speedBelow integerValue] != INT16_MIN) {
+        *messagePtr = [NSString stringWithFormat:@"The wind speed is below %d%@!", [condition.speedBelow intValue], [condition unitTypeForSpeed]];
         return NO;
     }
-    if ([speed integerValue] >= [condition.speedAbove integerValue] && [condition.speedAbove integerValue] != INT16_MIN) {
-        *messagePtr = [NSString stringWithFormat:@"The wind speed is above %d%@!", [condition.speedAbove integerValue], [condition unitTypeForSpeed]];
+    if ([condition.speed integerValue] >= [condition.speedAbove integerValue] && [condition.speedAbove integerValue] != INT16_MIN) {
+        *messagePtr = [NSString stringWithFormat:@"The wind speed is above %d%@!", [condition.speedAbove intValue], [condition unitTypeForSpeed]];
         return NO;
     }
-    if ([humidity integerValue] <= [condition.humidityBelow integerValue] && [condition.humidityBelow integerValue] != INT16_MIN) {
-        *messagePtr = [NSString stringWithFormat:@"The humidity is below %d%%!", [condition.humidityBelow integerValue]];
+    if ([condition.humidity integerValue] <= [condition.humidityBelow integerValue] && [condition.humidityBelow integerValue] != INT16_MIN) {
+        *messagePtr = [NSString stringWithFormat:@"The humidity is below %d%%!", [condition.humidityBelow intValue]];
         return NO;
     }
-    if ([humidity integerValue] >= [condition.humidityAbove integerValue] && [condition.humidityAbove integerValue] != INT16_MIN) {
-        *messagePtr = [NSString stringWithFormat:@"The humidity is above %d%%!", [condition.humidityAbove integerValue]];
+    if ([condition.humidity integerValue] >= [condition.humidityAbove integerValue] && [condition.humidityAbove integerValue] != INT16_MIN) {
+        *messagePtr = [NSString stringWithFormat:@"The humidity is above %d%%!", [condition.humidityAbove intValue]];
         return NO;
     }
     return YES;
